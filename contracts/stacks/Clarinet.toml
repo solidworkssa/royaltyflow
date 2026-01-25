@@ -1,0 +1,12 @@
+[project]
+name = "royaltyflow"
+description = "Creator royalty distribution system"
+authors = ["solidworkssa"]
+telemetry = false
+cache_dir = ".cache"
+
+[contracts.royaltyflow]
+path = "contracts/royaltyflow.clar"
+
+[repl.analysis]
+passes = ["check_checker"]
