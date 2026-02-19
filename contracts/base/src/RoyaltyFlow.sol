@@ -2,8 +2,11 @@
 pragma solidity ^0.8.20;
 
 /// @title RoyaltyFlow Contract
+/// @author solidworkssa
 /// @notice Automated creator royalty distribution system.
 contract RoyaltyFlow {
+    string public constant VERSION = "1.0.0";
+
 
     address[] public payees;
     mapping(address => uint256) public shares;
